@@ -4,7 +4,7 @@
     "slug": "umtc_react_native",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/ucms2.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -17,9 +17,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/ucms2.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tiyokanor32.umtc_react_native"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9043c239-17b1-4a28-a7b6-06aa90801ca9"
+      }
     }
   }
 }
